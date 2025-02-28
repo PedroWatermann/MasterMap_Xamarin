@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterMap.MainPage"
+             Title="Master Map"
+             BackgroundColor="#cfcfcf">
+
+    <StackLayout>
+        <Label Text="Master Map"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+                WidthRequest="500"
+                FontSize="50"
+                FontAttributes="Bold"
+                TextColor="White"
+                BackgroundColor="#6A3DE8"/>
+        
+        <StackLayout Padding="5">
+            <Image Source="Map_World"
+                   WidthRequest="200"
+                   HeightRequest="200"/>
+
+            <Label Text="País:"
+                   TextColor="Black"
+                   FontSize="18"/>
+            <Entry Placeholder="Ex. Brasil"
+                   FontSize="18"
+                   x:Name="entPais"/>
+
+            <Label Text="UF:"
+                   TextColor="Black"
+                   FontSize="18"/>
+            <Entry Placeholder="Ex. PR"
+                   FontSize="18"
+                   x:Name="entUf"/>
+
+            <Label Text="Cidade:"
+                   TextColor="Black"
+                   FontSize="18"/>
+            <Entry Placeholder="Ex. Maringá"
+                   FontSize="18"
+                   x:Name="entCidade"/>
+
+            <Label Text="Local:"
+                   TextColor="Black"
+                   FontSize="18"/>
+            <Entry Placeholder="Ex. Senai - CTM"
+                   FontSize="18"
+                   x:Name="entLocal"/>
+
+            <Button Text="Ver Mapa"
+                    BackgroundColor="#000081"
+                    BorderWidth="3"
+                    BorderColor="#00006D"
+                    TextColor="White"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    CornerRadius="20"
+                    VerticalOptions="EndAndExpand"
+                    x:Name="btnMapa"
+                    Clicked="btnMapa_Clicked"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

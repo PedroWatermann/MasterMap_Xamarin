@@ -1,0 +1,15 @@
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\bin\Debug\netstandard2.0\MasterMap.deps.json
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\bin\Debug\netstandard2.0\MasterMap.dll
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\bin\Debug\netstandard2.0\MasterMap.pdb
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.csproj.AssemblyReference.cache
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.AssemblyInfoInputs.cache
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.AssemblyInfo.cs
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.dll
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\refint\MasterMap.dll
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\MasterMap.pdb
+C:\Users\Aluno\source\repos\PedroWatermann\MasterMap_Xamarin\MasterMap\MasterMap\obj\Debug\netstandard2.0\ref\MasterMap.dll
