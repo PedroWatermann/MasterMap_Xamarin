@@ -3,62 +3,75 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MasterMap.MainPage"
              Title="Master Map"
-             BackgroundColor="#cfcfcf">
+             BackgroundColor="#dfdfdf">
 
     <StackLayout>
         <Label Text="Master Map"
-                HorizontalTextAlignment="Center"
-                VerticalTextAlignment="Center"
-                WidthRequest="500"
-                FontSize="50"
-                FontAttributes="Bold"
-                TextColor="White"
-                BackgroundColor="#6A3DE8"/>
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               WidthRequest="500"
+               HeightRequest="70"
+               FontSize="50"
+               FontAttributes="Bold"
+               TextColor="White"
+               BackgroundColor="#6A3DE8"/>
         
-        <StackLayout Padding="5">
-            <Image Source="Map_World"
-                   WidthRequest="200"
-                   HeightRequest="200"/>
+        <StackLayout Orientation="Vertical" 
+                     Padding="8">
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Image Source="Map_World"
+                       WidthRequest="200"
+                       HeightRequest="200"/>
 
-            <Label Text="País:"
-                   TextColor="Black"
-                   FontSize="18"/>
-            <Entry Placeholder="Ex. Brasil"
-                   FontSize="18"
-                   x:Name="entPais"/>
+                <Label Text="País:"
+                       TextColor="Black"
+                       FontSize="18"/>
+                <Entry Placeholder="Ex. Brasil"
+                       PlaceholderColor="DarkGray"
+                       TextColor="DimGray"
+                       FontSize="18"
+                       x:Name="entPais"/>
 
-            <Label Text="UF:"
-                   TextColor="Black"
-                   FontSize="18"/>
-            <Entry Placeholder="Ex. PR"
-                   FontSize="18"
-                   x:Name="entUf"/>
+                <Label Text="UF:"
+                       TextColor="Black"
+                       FontSize="18"/>
+                <Entry Placeholder="Ex. PR"
+                       PlaceholderColor="DarkGray"
+                       TextColor="DimGray"
+                       FontSize="18"
+                       x:Name="entUf"/>
 
-            <Label Text="Cidade:"
-                   TextColor="Black"
-                   FontSize="18"/>
-            <Entry Placeholder="Ex. Maringá"
-                   FontSize="18"
-                   x:Name="entCidade"/>
+                <Label Text="Cidade:"
+                       TextColor="Black"
+                       FontSize="18"/>
+                <Entry Placeholder="Ex. Maringá"
+                       PlaceholderColor="DarkGray"
+                       TextColor="DimGray"
+                       FontSize="18"
+                       x:Name="entCidade"/>
 
-            <Label Text="Local:"
-                   TextColor="Black"
-                   FontSize="18"/>
-            <Entry Placeholder="Ex. Senai - CTM"
-                   FontSize="18"
-                   x:Name="entLocal"/>
+                <Label Text="Local:"
+                       TextColor="Black"
+                       FontSize="18"/>
+                <Entry Placeholder="Ex. Senai - CTM"
+                       PlaceholderColor="DarkGray"
+                       TextColor="DimGray"
+                       FontSize="18"
+                       x:Name="entLocal"/>
+            </StackLayout>
 
-            <Button Text="Ver Mapa"
-                    BackgroundColor="#000081"
-                    BorderWidth="3"
-                    BorderColor="#00006D"
-                    TextColor="White"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                    CornerRadius="20"
-                    VerticalOptions="EndAndExpand"
-                    x:Name="btnMapa"
-                    Clicked="btnMapa_Clicked"/>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button Text="Ver Mapa"
+                        BackgroundColor="#000081"
+                        BorderWidth="3"
+                        BorderColor="#00006D"
+                        TextColor="White"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        x:Name="btnMapa"
+                        Clicked="btnMapa_Clicked"/>
+            </StackLayout>
         </StackLayout>
     </StackLayout>
 
