@@ -36,13 +36,20 @@ namespace MasterMap
                 string estado = entUf.Text;
                 string pais = entPais.Text;
 
-                IEnumerable<Location> locations = await Geocoding.GetLocationsAsync($"{local}, {cidade}, {estado}, {pais}");
-                Location location = locations?.FirstOrDefault();
+                Placemark placemark = new Placemark
+                {
+                    CountryName = pais,
+                    AdminArea = estado,
+                    Locality = cidade,
+                    Thoroughfare = local,
+                };
+                var options = new MapLaunchOptions
+                {
+                    Name = "Localização",
+                    NavigationMode = NavigationMode.Walking
+                };
 
-                var endereco = new Location(location.Latitude, location.Longitude);
-                var options = new MapLaunchOptions { Name = "Localização" };
-
-                await Map.OpenAsync(location, options);
+                await Map.OpenAsync(placemark, options);
             }
             catch (Exception er)
             {

@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MasterMap",
+    "\\MasterMap\\MasterMap"
   ],
+  "SelectedNode": "\\MasterMap\\MasterMap\\MainPage.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -3408,25 +3408,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Users\\Aluno\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\MasterMap.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Source\\Repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\MasterMap.Android.csproj",
       "projectName": "MasterMap.Android",
-      "projectPath": "C:\\Users\\pedro\\source\\repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\MasterMap.Android.csproj",
-      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pedro\\source\\repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\obj\\",
+      "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\MasterMap.Android.csproj",
+      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aluno\\Source\\Repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3440,16 +3439,11 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\pedro\\source\\repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap\\MasterMap.csproj": {
-              "projectPath": "C:\\Users\\pedro\\source\\repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap\\MasterMap.csproj"
+            "C:\\Users\\Aluno\\Source\\Repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap\\MasterMap.csproj": {
+              "projectPath": "C:\\Users\\Aluno\\Source\\Repos\\PedroWatermann\\MasterMap_Xamarin\\MasterMap\\MasterMap\\MasterMap.csproj"
             }
           }
         }
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "all"
       }
     },
     "frameworks": {

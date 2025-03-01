@@ -37,7 +37,7 @@
                        FontSize="18"/>
                 <Entry Placeholder="Ex. PR"
                        PlaceholderColor="DarkGray"
-                       TextColor="DimGray"
+                       TextColor="Black"
                        FontSize="18"
                        x:Name="entUf"/>
 
